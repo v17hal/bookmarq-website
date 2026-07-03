@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Delete Your Account — BookmarQ</title>
+  <link rel="icon" href="assets/bookmarq_logo.jpeg" />
+  <link href="https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&family=Nunito+Sans:wght@400;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="nav">
+    <div class="container nav-inner">
+      <a class="nav-logo" href="index.html"><img src="assets/bookmarq_logo.jpeg" alt="BookmarQ" /><span class="name brand-font">BookmarQ</span></a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+        <a href="support.html" class="btn btn-navy">Support</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container"><h1 class="h-lg">Delete Your Account &amp; Data</h1><p>You can permanently remove your BookmarQ account and associated personal data.</p></div>
+  </section>
+
+  <main class="doc">
+    <div class="container">
+      <p class="updated">Last updated: <strong>[INSERT DATE]</strong></p>
+      <div class="callout"><strong>To publish:</strong> replace <code>[INSERT YOUR CONTACT EMAIL]</code> below with a monitored address. This page is the account-deletion route required by Google Play.</div>
+
+      <h2>Request deletion by email</h2>
+      <p>To delete your BookmarQ account and personal data, send an email from the address associated with your account to:</p>
+      <p style="font-size:1.2rem"><a href="mailto:[INSERT YOUR CONTACT EMAIL]?subject=BookmarQ%20Account%20Deletion%20Request">[INSERT YOUR CONTACT EMAIL]</a></p>
+      <p>Please include the subject line <strong>"Account Deletion Request"</strong> and the email address you use to sign in. We will verify the request and process it within <strong>30 days</strong>.</p>
+
+      <h2>What gets deleted</h2>
+      <ul>
+        <li>Your account and sign-in credentials (Firebase Authentication record).</li>
+        <li>Your profile: display name, email, photo, gamification points and tier.</li>
+        <li>Your votes (likes/dislikes) and any private draft data.</li>
+      </ul>
+
+      <h2>What may be retained</h2>
+      <ul>
+        <li><strong>Published reviews</strong> may be retained but <strong>anonymised</strong> (your name removed) to preserve the integrity of book scores that other users rely on. On request, we can remove them entirely.</li>
+        <li>Minimal records we are legally required to keep, and backups that are purged on our normal rotation cycle.</li>
+      </ul>
+
+      <h2>In-app option</h2>
+      <p>You can also request deletion from within the App — open <strong>Settings</strong> and contact us using the details there. If a self-service in-app "Delete my account" button is available in your version, you may use it directly.</p>
+
+      <h2>Questions</h2>
+      <p>Contact <a href="mailto:[INSERT YOUR CONTACT EMAIL]">[INSERT YOUR CONTACT EMAIL]</a>. See also our <a href="privacy.html">Privacy Policy</a>.</p>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="fine">© <span id="yr"></span> BookmarQ · <a href="index.html">Home</a> · <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a></div>
+    </div>
+  </footer>
+  <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>
