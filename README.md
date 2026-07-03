@@ -19,14 +19,16 @@ step, no dependencies. Fonts load from Google Fonts CDN.
 Just open `index.html` in a browser (double-click). Everything works offline
 except the web fonts (which need internet).
 
-## ⚠️ Before you publish — fill these placeholders
-Search all `.html` files for `[INSERT ...]` and replace:
-- `[INSERT DATE]` — the effective date of the policy/terms
-- `[INSERT YOUR CONTACT EMAIL]` — a monitored support/privacy email
-- `[INSERT JURISDICTION]` — governing law region in `terms.html` (e.g. India)
+## Legal pages — filled in
+The Privacy, Terms, Delete-Account and Support pages are complete:
+- **Contact:** bookmarqreviews@gmail.com
+- **Governing law:** India
+- **Effective date:** July 3, 2026
 
-Have the Privacy Policy and Terms reviewed for your jurisdiction — these drafts
-are a starting point, not legal advice.
+> These were prepared as a practical starting point. For a public launch it is
+> still wise to have them reviewed for your jurisdiction — this is not legal
+> advice. Make sure **bookmarqreviews@gmail.com** is a monitored inbox, since
+> Google Play tests the deletion route and users will email it.
 
 ## Deploy (pick one — all free)
 - **GitHub Pages:** push this folder to a repo → Settings → Pages → deploy from
